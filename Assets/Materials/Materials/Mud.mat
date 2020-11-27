@@ -20,6 +20,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Mud_Texture:
+        m_Texture: {fileID: 2800000, guid: de7baee2baaeb5642b9a37f57b692224, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - Texture2D_B0F99294:
         m_Texture: {fileID: 2800000, guid: de7baee2baaeb5642b9a37f57b692224, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -53,9 +57,17 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Alpha: 1.1
+    - Distortion: 0
+    - Emissive: 0
+    - Noise_Scale: 10
+    - Noise_Speed: 0.05
+    - Speed: 0.05
+    - Vector1_1DA6C896: 0.05
     - Vector1_A9972516: 0
-    - Vector1_AE216E6E: 0.5
+    - Vector1_AE216E6E: 0.05
     - Vector1_D16F5E32: 0
+    - Vector1_D3969F78: 10
     - Vector1_E671FFBA: 1.1
     - _AlphaClip: 0
     - _Blend: 0
@@ -79,6 +91,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
+    - Tiling: {r: 0.5, g: 0.5, b: 0, a: 0}
     - Vector2_6B8C13A9: {r: 0.5, g: 0.5, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
